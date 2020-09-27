@@ -1,17 +1,34 @@
 
-# Proj
+# Fuck
 
-Anfasdfahk
+My Life
 
-![Proj](./assets/demo.png)
+![Fuck]()
 
 ## Table of Contents
+
+* [Installation](#installation)
+* [Usage](#usage)
+* [Questions](#Questions?)
+* [Collaborators](#collaborators)
 
 
 ## Installation
 
-More words an such
+
 
 ## Usage
 
-Anf af jlfjlj
+BAllllls
+
+## Questions?
+
+For any inquiries or feedback, please reach me at [Diegopie](https://github.com/Diegopie) or at fa@fadf.com
+
+## Collaborators
+
+I hate you
+
+## License
+MIT License
+Copyright (c) 2020 Diegopie
