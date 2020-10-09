@@ -27,15 +27,15 @@ const questions = [
         type: "input", 
         name: "title",
         message: "What is Your Project Called?",
-        // validate: valInput.string
-        default: "Testing is fun"
+        validate: valInput.string
+        // default: "Testing is fun"
     },
     { // Github
         type: "input",
         name: "github",
         message: "What is Your Github Username?",
-        // validate: valInput.string
-        default: "Testing is fun"
+        validate: valInput.string
+        // default: "Testing is fun"
     },
     { // Ask email
         type: "confirm",
@@ -49,16 +49,16 @@ const questions = [
         when: answers => {
             return answers.incEmail == true;
         },
-        // validate: valInput.email
-        default: "Testing is fun"
+        validate: valInput.email
+        // default: "Testing is fun"
     },
     { // Description
             //   CHANGE TYPE BACK TO EDITOR
-        type: "input",
+        type: "editor",
         name: "desc",
         message: "Write a Description of Your Project",
-        // validate: valInput.string
-        default: "Testing is fun"
+        validate: valInput.string
+        // default: "Testing is fun"
     },
     { // Ask Demo
         type: "confirm",
@@ -72,7 +72,7 @@ const questions = [
         when: answers => {
             return answers.incDemo == true;
         },
-        default: "./assets/demo-2.gif"
+        // default: "./assets/demo-2.gif"
     },
     { // Ask Install
         type: "confirm",
@@ -81,51 +81,51 @@ const questions = [
     },
     { // Installation
          //   CHANGE TYPE BACK TO EDITOR
-        type: "input",
+        type: "editor",
         name: "instal",
         message: "What are the Installation Requirements for Your Project",
         when: answers => {
             return answers.incInstal == true;
         },
-        default: "Testing is fun"
+        // default: "Testing is fun"
     },
     { // Ask Usage/UserStory
         type: "confirm",
         name: "incUse",
-        message: "Would you like to include a use case / user story for your project?"
+        message: "Would you like to include a usage explanation for your project?"
     },
     { // Usage 
         //   CHANGE TYPE BACK TO EDITOR
-        type: "input",
+        type: "editor",
         name: "usage",
-        message: "What is the Use Case for Your Application?",
+        message: "How Do Users Use Your Application?",
         when: answers => {
             return answers.incUse == true;
         },
-        // validate: valInput.string
-        default: "Testing is fun"
+        validate: valInput.string
+        // default: "Testing is fun"
     }, 
     { // Ask Collaborators
         type: "confirm",
         name: "incCollab",
-        message: "Would you like to include use case/user story for your project?"
+        message: "Would you like to include collaborators your project?"
     },
     { // Collaborators
             //   CHANGE TYPE BACK TO EDITOR
-        type: "input",
+        type: "editor",
         name: "collab",
         message: "Would you like to credit any collaborators or technologies used?",
         when: answers => {
             return answers.incCollab == true;
         },
-        default: "Testing is fun"
+        // default: "Testing is fun"
     },
     { // License 
         type: 'rawlist',
         message: 'Which License Would You Like for Your Project?',
         name: 'licen',
         choices: ['MIT License', 'GNU AGPLv3', 'GNU GPLv3', 'GNU LGPLv3', 'Mozilla Public License 2.0', 'Apache License 2.0', 'Boost Software License 1.0', 'The Unlicense'],
-        // validate: valInput.string
+        validate: valInput.string,
         default: "MIT License"
     }
 ];
