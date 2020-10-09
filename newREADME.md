@@ -1,34 +1,16 @@
+# This Creates README files!
 
-# Fuck
-
-My Life
-
-![Fuck]()
+Quickly generate and .md file for your projects. Customize the sections to fit your needs!
 
 ## Table of Contents
 
-* [Installation](#installation)
-* [Usage](#usage)
 * [Questions](#Questions?)
-* [Collaborators](#collaborators)
-
-
-## Installation
-
-
-
-## Usage
-
-BAllllls
+* [License](#license)
 
 ## Questions?
 
-For any inquiries or feedback, please reach me at [Diegopie](https://github.com/Diegopie) or at fa@fadf.com
-
-## Collaborators
-
-I hate you
-
+For any inquiries or feedback, please reach me at [Diegopie](https://github.com/Diegopie)
 ## License
+
 MIT License
 Copyright (c) 2020 Diegopie
